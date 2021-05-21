@@ -2,8 +2,12 @@ import React from 'react';
 import { Header, Card, Image } from 'semantic-ui-react';
 
 const Links = () => (
-            <><Header as='h1'>Hello, my name is Teodoro Garcia.</Header>
+        <div>
+          
+           <Header as='h1'>Hello, my name is Teodoro Garcia.</Header>
+            
             <Header as='h4'>I am a full-stack software engineer, content creator, and official GitKraken Ambassador!</Header>
+            
             <Card.Group>
                 <Card fluid color='red'>
                     <Card.Content href='https://github.com/tedtke'>
@@ -37,7 +41,9 @@ const Links = () => (
             </Card.Group>
             <Header as='h4' >
              made with ❤️ by tedtke
-           </Header></>
+           </Header>
+
+        </div>
 )
 
 export default Links;
